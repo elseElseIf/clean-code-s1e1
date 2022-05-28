@@ -6,53 +6,55 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
   </head>
-  <body class="page">
-    <div class="about">
-      <img class="about__img" src="./eisenhower-matrix.jpg" alt="about">
-      <a class="about__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details ?</a>
-    </div>
-    <div class="main-page">
-      <p id="topSectionForAddingElementToList">
-        <label for="new-task">Add Item</label>
-        <div class="main-page__new-item">
-          <input id="new-task" class="main-page__input-text" type="text">
-          <button class="main-page__button">Add</button>
+  <body>
+    <main class="page">
+      <section class="about">
+        <img class="about__img" src="./eisenhower-matrix.jpg" alt="about">
+        <a class="about__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details ?</a>
+      </section>
+      <section class="main-page">
+        <div id="topSectionForAddingElementToList">
+          <label for="new-task">Add Item</label>
+          <div class="main-page__new-item">
+            <input id="new-task" class="main-page__input-text" type="text">
+            <button class="main-page__button">Add</button>
+          </div>
         </div>
-      </p>
-      <h3 class="main-page__text">Todo</h3>
-      <ul class="main-page__item" id="incompleteTasks">
-        <li class="main-page__item1">
-          <input class="main-page__input-checkbox" type="checkbox">
-          <label class="main-page__label">Pay Bills</label>
-          <input type="text" class="main-page__input-text">
-          <button class=" main-page__button main-page__button-edit">Edit</button>
-          <button class="main-page__button main-page__button-delete">
-            <img class="main-page__button-img" src="./remove.svg" alt="button-img">
-          </button>
-        </li>
-        <li class="main-page__item2 main-page__edit-item">
-          <input class="main-page__input-checkbox" type="checkbox">
-          <label class="main-page__label">Go Shopping</label>
-          <input type="text" value="Go Shopping" class="main-page__input-text">
-          <button class="main-page__button main-page__button-edit">Save</button>
-          <button class="main-page__button main-page__button-delete">
-            <img class="main-page__button-img" src="./remove.svg" alt="button-img">
-          </button>
-        </li>
-      </ul>
-      <h3 class="main-page__text">Completed</h3>
-      <ul class="main-page__list" id="completed-tasks">
-        <li class="main-page__item3">
-          <input class="main-page__input-checkbox" type="checkbox" checked>
-          <label class="main-page__label main-page__label-complet">See the Doctor</label>
-          <input type="text" class="main-page__input-text">
-          <button class="main-page__button main-page__button-edit">Edit</button>
-          <button class="main-page__button main-page__button-delete">
-            <img class="main-page__button-img" src="./remove.svg" alt="button-img">
-          </button>
-        </li>
-      </ul>
-    </div>
-  <script src="app.js"></script>
+        <h3 class="main-page__text">Todo</h3>
+        <ul class="main-page__item" id="incompleteTasks">
+          <li class="main-page__item1">
+            <input class="main-page__input-checkbox" type="checkbox">
+            <label class="main-page__label">Pay Bills</label>
+            <input type="text" class="main-page__input-text">
+            <button class=" main-page__button main-page__button-edit">Edit</button>
+            <button class="main-page__button main-page__button-delete">
+              <img class="main-page__button-img" src="./remove.svg" alt="button-img">
+            </button>
+          </li>
+          <li class="main-page__item2 main-page__edit-item">
+            <input class="main-page__input-checkbox" type="checkbox">
+            <label class="main-page__label">Go Shopping</label>
+            <input type="text" value="Go Shopping" class="main-page__input-text">
+            <button class="main-page__button main-page__button-edit">Save</button>
+            <button class="main-page__button main-page__button-delete">
+              <img class="main-page__button-img" src="./remove.svg" alt="button-img">
+            </button>
+          </li>
+        </ul>
+        <h3 class="main-page__text">Completed</h3>
+        <ul class="main-page__list" id="completed-tasks">
+          <li class="main-page__item3">
+            <input class="main-page__input-checkbox" type="checkbox" checked>
+            <label class="main-page__label main-page__label-complet">See the Doctor</label>
+            <input type="text" class="main-page__input-text">
+            <button class="main-page__button main-page__button-edit">Edit</button>
+            <button class="main-page__button main-page__button-delete">
+              <img class="main-page__button-img" src="./remove.svg" alt="button-img">
+            </button>
+          </li>
+        </ul>
+      </section>
+    </main> 
+    <script src="app.js"></script>
   </body>
 </html>
