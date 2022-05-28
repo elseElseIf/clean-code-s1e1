@@ -39,19 +39,19 @@
     display: flex;
 }
 .main-page__item {
-    margin:0;
+    margin: 0;
     padding: 0px;
 }
 .main-page__item1,
 .main-page__item2,
 .main-page__item3,
 .main-page__text {
-    list-style:none;
+    list-style: none;
 }
 .main-page__input-checkbox,
 .main-page__input-text
 .main-page__button{
-    outline:none;
+    outline: none;
 }
 .main-page__button {
     background: none;
@@ -146,14 +146,14 @@ li > input[type="text"] {
 
 /* Edit Task */
 ul li input[type=text] {
-    display:none
+    display: none
 }
 
 .main-page__edit-item input[type=text] {
-    display:inline-block;
-    width:224px
+    display: inline-block;
+    width: 224px
 }
 
 .main-page__edit-item label {
-    display:none;
+    display: none;
 }
