@@ -19,8 +19,11 @@
 }
 
 @media (max-width:768px) {
-.about { text-align: center;
+
+.about { 
+    text-align: center;
 }
+
 }
 .main-page {
     display: block;
@@ -123,7 +126,7 @@ li > label {
     font-size: 18px;
     width: 226px;
 }
-li >    input[type="text"] {
+li > input[type="text"] {
     width: 226px
 }
 .main-page__button-img{
