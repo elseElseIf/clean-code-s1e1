@@ -33,7 +33,7 @@
 .main-page__input {
     width: 56%;
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
 }
 .main-page__new-item {
     display: flex;
@@ -127,7 +127,7 @@ li > label {
     width: 226px;
 }
 li > input[type="text"] {
-    width: 226px
+    width: 226px;
 }
 .main-page__button-img{
     height: 2em;
@@ -140,18 +140,18 @@ li > input[type="text"] {
 
 /* Completed */
 .main-page__label-complet {
-    text-decoration: line-through
+    text-decoration: line-through;
     color: #888;
 }
 
 /* Edit Task */
 ul li input[type=text] {
-    display: none
+    display: none;
 }
 
 .main-page__edit-item input[type=text] {
     display: inline-block;
-    width: 224px
+    width: 224px;
 }
 
 .main-page__edit-item label {
