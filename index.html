@@ -17,12 +17,12 @@
           <label for="new-task">Add Item</label>
           <div class="main-page__new-item">
             <input id="new-task" class="main-page__input-text" type="text">
-            <button class="main-page__button">Add</button>
+            <button id="add-button" class="main-page__button">Add</button>
           </div>
         </div>
         <h3 class="main-page__text">Todo</h3>
         <ul class="main-page__item" id="incompleteTasks">
-          <li class="main-page__item1">
+          <li class="main-page__item-point">
             <input class="main-page__input-checkbox" type="checkbox">
             <label class="main-page__label">Pay Bills</label>
             <input type="text" class="main-page__input-text">
@@ -31,7 +31,7 @@
               <img class="main-page__button-img" src="./remove.svg" alt="button-img">
             </button>
           </li>
-          <li class="main-page__item2 main-page__edit-item">
+          <li class="main-page__item-point main-page__edit-item">
             <input class="main-page__input-checkbox" type="checkbox">
             <label class="main-page__label">Go Shopping</label>
             <input type="text" value="Go Shopping" class="main-page__input-text">
@@ -43,7 +43,7 @@
         </ul>
         <h3 class="main-page__text">Completed</h3>
         <ul class="main-page__list" id="completed-tasks">
-          <li class="main-page__item3">
+          <li class="main-page__item-point">
             <input class="main-page__input-checkbox" type="checkbox" checked>
             <label class="main-page__label main-page__label-complet">See the Doctor</label>
             <input type="text" class="main-page__input-text">
