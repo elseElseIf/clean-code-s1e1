@@ -14,9 +14,9 @@
       </section>
       <section class="main-page">
         <div id="topSectionForAddingElementToList">
-          <label for="new-task">Add Item</label>
+          <label class="main-page__label-add" for="new-task">Add Item</label>
           <div class="main-page__new-item">
-            <input id="new-task" class="main-page__input-text" type="text">
+            <input id="new-task" class="main-page__input-text main-page__input-label" type="text">
             <button id="add-button" class="main-page__button">Add</button>
           </div>
         </div>
@@ -24,8 +24,8 @@
         <ul class="main-page__item" id="incompleteTasks">
           <li class="main-page__item-point">
             <input class="main-page__input-checkbox" type="checkbox">
-            <label class="main-page__label">Pay Bills</label>
-            <input type="text" class="main-page__input-text">
+            <label class="main-page__label main-page__input-label">Pay Bills</label>
+            <input type="text" class="main-page__input-text main-page__input-label">
             <button class=" main-page__button main-page__button-edit">Edit</button>
             <button class="main-page__button main-page__button-delete">
               <img class="main-page__button-img" src="./remove.svg" alt="button-img">
@@ -33,8 +33,8 @@
           </li>
           <li class="main-page__item-point main-page__edit-item">
             <input class="main-page__input-checkbox" type="checkbox">
-            <label class="main-page__label">Go Shopping</label>
-            <input type="text" value="Go Shopping" class="main-page__input-text">
+            <label class="main-page__label main-page__input-label">Go Shopping</label>
+            <input type="text" value="Go Shopping" class="main-page__input-text main-page__input-label">
             <button class="main-page__button main-page__button-edit">Save</button>
             <button class="main-page__button main-page__button-delete">
               <img class="main-page__button-img" src="./remove.svg" alt="button-img">
@@ -45,8 +45,8 @@
         <ul class="main-page__list" id="completed-tasks">
           <li class="main-page__item-point">
             <input class="main-page__input-checkbox" type="checkbox" checked>
-            <label class="main-page__label main-page__label-complet">See the Doctor</label>
-            <input type="text" class="main-page__input-text">
+            <label class="main-page__label main-page__label-complet main-page__input-label">See the Doctor</label>
+            <input type="text" class="main-page__input-text main-page__input-label">
             <button class="main-page__button main-page__button-edit">Edit</button>
             <button class="main-page__button main-page__button-delete">
               <img class="main-page__button-img" src="./remove.svg" alt="button-img">
